@@ -108,7 +108,7 @@ export default function About() {
               <div className="mt-5 p-3 rounded-xl border border-emerald-200 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/30 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse flex-shrink-0" />
                 <span className="text-xs font-medium text-emerald-700 dark:text-emerald-400">
-                  Available for full-time roles in Sydney (or remote Australia-wide)
+                  Available for full-time roles in Australia
                 </span>
               </div>
             </div>

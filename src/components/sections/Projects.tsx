@@ -40,10 +40,10 @@ export default function Projects() {
           </span>
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
             <h2 className="font-display text-[clamp(2rem,4vw,3rem)] text-[var(--text-primary)]">
-              My Work
+              My Work.
             </h2>
             <p className="text-sm text-[var(--text-muted)] max-w-sm">
-              Each project is framed as a business problem → solution → measurable outcome.
+              
             </p>
           </div>
         </motion.div>
