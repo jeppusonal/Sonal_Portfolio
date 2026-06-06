@@ -169,7 +169,7 @@ GPA: 8.72 / 10
 
 **Email:** [sonalsrao26@gmail.com](mailto:sonalsrao26@gmail.com)
 
-**LinkedIn:** [[Add your LinkedIn URL](https://www.linkedin.com/in/sonal-jeppu-rao/)]
+**LinkedIn:** [(https://www.linkedin.com/in/sonal-jeppu-rao/)]
 
 **GitHub:** [(https://github.com/jeppusonal)]
 
