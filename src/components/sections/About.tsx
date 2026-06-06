@@ -63,33 +63,12 @@ export default function About() {
             className="space-y-5 text-[var(--text-secondary)] leading-relaxed"
           >
             <p>
-              I&apos;m a data-focused technology professional with 2+ years of
-              experience as an Associate Developer at{" "}
-              <strong className="text-[var(--text-primary)] font-medium">
-                Mitsubishi Pension & Market Services
-              </strong>{" "}
-              formerly Link Group, where I worked on enterprise applications,
-              SQL Server workflows, and production systems supporting Australian
-              investor and pension administration.
-            </p>
+              I&apos;m a data-focused technology professional with 2+ years of experience building enterprise systems in Australian financial services at Mitsubishi Pension & Market Services (formerly Link Group).
 
-            <p>
-              That experience taught me that good data work is not only about
-              models or dashboards. It is about building reliable systems,
-              improving data quality, understanding business requirements, and
-              delivering outputs that people can trust.
-            </p>
+My experience spans software development, SQL, data workflows, and production systems, where I learned that effective data solutions are built on reliability, quality, and a deep understanding of business needs.
 
-            <p>
-              I&apos;m now completing my{" "}
-              <strong className="text-[var(--text-primary)] font-medium">
-                Master of Data Science and Innovation at UTS
-              </strong>
-              , where I have built projects across machine learning, business
-              intelligence, data engineering, computer vision, and applied AI.
-              My goal is to contribute to teams that use data to improve
-              decisions, automate workflows, and create measurable business
-              impact.
+Currently completing a Master of Data Science and Innovation at UTS, I apply analytics, machine learning, data engineering, and AI to transform complex data into actionable insights and measurable business impact.
+
             </p>
 
             <ul className="mt-6 space-y-2.5">
