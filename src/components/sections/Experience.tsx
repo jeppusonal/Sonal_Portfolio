@@ -3,38 +3,75 @@ import { motion } from "framer-motion";
 import { Building2, Calendar } from "lucide-react";
 
 const EXPERIENCES = [
-  {
-    company: "Mitsubishi Pension and Market Services",
-    subtitle: "formerly Link Group — ASX-listed financial services",
-    role: "Associate Developer",
-    period: "Jul 2022 – Jul 2024",
-    location: "Sydney, NSW",
-    type: "Full-time · 2 years",
-    bullets: [
-      "Optimised SQL Server queries and stored procedures powering large-scale Australian pension and investor management systems, reducing critical report execution time by 30%+",
-      "Built and maintained middleware data applications processing high-volume superannuation and investment fund records with strict regulatory and audit requirements",
-      "Collaborated with operations and business stakeholders to translate manual reporting workflows into automated SQL-based data pipelines",
-      "Supported production systems with tens of millions of financial records, ensuring data integrity and system uptime across peak processing windows",
-    ],
-    stack: ["SQL Server", "Stored Procedures", "SSRS", ".NET MVC", "Production Data Systems"],
-    accent: "var(--accent)",
-  },
-  {
-    company: "University of Technology Sydney",
-    subtitle: "Master of Data Science and Innovation",
-    role: "Graduate Researcher & Developer",
-    period: "Jul 2024 – May 2026",
-    location: "Sydney, NSW",
-    type: "Academic · Current",
-    bullets: [
-      "Designed and built VehicleIQ — a multi-model computer vision platform for vehicle classification and damage detection, presented at the UTS Innovation Showcase",
-      "Architected a production-grade ELT data pipeline using Apache Airflow, dbt, PostgreSQL, and GCP with medallion architecture",
-      "Applied ML techniques including Random Forest, XGBoost, and SHAP for customer churn modelling and large-scale taxi fare prediction with PySpark",
-      "Explored LangChain, RAG, and prompt engineering for applied AI product development",
-    ],
-    stack: ["Python", "PyTorch", "Airflow", "dbt", "GCP", "Power BI", "Tableau", "PySpark"],
-    accent: "var(--gold)",
-  },
+{
+company: "Mitsubishi Pension & Market Services",
+subtitle: "Formerly Link Group | Financial Services & Investor Administration",
+role: "Associate Developer",
+period: "Jul 2022 – Jul 2024",
+location: "Mumbai, India",
+type: "Full-time · 2 Years",
+bullets: [
+"Developed and maintained enterprise applications supporting Australian investor and pension administration systems.",
+"Optimized SQL Server queries and reporting workflows to improve performance and operational efficiency.",
+"Collaborated with business stakeholders to translate requirements into scalable technical solutions.",
+"Improved data quality, reporting accuracy, and production system reliability.",
+"Supported mission-critical systems processing high-volume financial and investor records."
+],
+stack: ["SQL Server", ".NET MVC", "SSRS", "Stored Procedures", "Data Analysis"],
+accent: "var(--accent)",
+},
+
+{
+company: "University of Technology Sydney",
+subtitle: "Master of Data Science and Innovation",
+role: "Data Science Researcher & Project Developer",
+period: "Jul 2024 – May 2026",
+location: "Sydney, Australia",
+type: "Academic · Current",
+bullets: [
+"Built VehicleIQ, an AI-powered computer vision platform for vehicle classification and damage detection.",
+"Designed data engineering pipelines using Airflow, dbt, PostgreSQL, and Google Cloud.",
+"Developed machine learning solutions for churn prediction, forecasting, and predictive analytics.",
+"Created interactive Power BI and Tableau dashboards for business intelligence use cases.",
+"Applied LangChain, RAG, and prompt engineering to AI-powered applications."
+],
+stack: ["Python", "PyTorch", "Airflow", "dbt", "Power BI", "Tableau", "GCP"],
+accent: "var(--gold)",
+},
+
+{
+company: "Grassdew IT Solutions Pvt. Ltd.",
+subtitle: "Software & Data Science Internship",
+role: "Software Intern",
+period: "Sep 2021 – Jan 2022",
+location: "Mumbai, India",
+type: "Internship",
+bullets: [
+"Developed cybersecurity and data science case-study projects using real-world business scenarios.",
+"Performed exploratory data analysis and machine learning experimentation.",
+"Created technical documentation and project reports.",
+"Collaborated with mentors and peers on solution design and evaluation."
+],
+stack: ["Python", "Machine Learning", "EDA", "Cybersecurity"],
+accent: "var(--accent)",
+},
+
+{
+company: "LetsGrowMore",
+subtitle: "Data Science Internship Program",
+role: "Data Science Intern",
+period: "Aug 2021 – Sep 2021",
+location: "Remote",
+type: "Internship",
+bullets: [
+"Built machine learning projects using Python and Scikit-learn.",
+"Performed data cleaning, feature engineering, and model evaluation.",
+"Created visualizations to communicate analytical findings.",
+"Presented project outcomes and recommendations."
+],
+stack: ["Python", "Scikit-learn", "Data Analysis", "Visualization"],
+accent: "var(--accent)",
+}
 ];
 
 export default function Experience() {

@@ -137,7 +137,7 @@ export default function Hero() {
               { label: "Industry Experience", value: "2+ yrs" },
               { label: "Employer", value: "Financial Services" },
               { label: "Education", value: "M.Data Science, UTS" },
-              { label: "Innovation Showcase", value: "UTS 2024" },
+              { label: "Innovation Showcase", value: "UTS 2026" },
             ].map((stat) => (
               <div key={stat.label} className="flex flex-col gap-0.5">
                 <span className="font-display text-xl text-[var(--text-primary)]">{stat.value}</span>
