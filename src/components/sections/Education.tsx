@@ -22,7 +22,7 @@ const EDUCATION = [
     degree: "Bachelor of Engineering — Electronics & Telecommunications",
     period: "Completed 2022",
     location: "Mumbai, India",
-    highlights: ["GPA: 8.72 / 10", "Signal processing, embedded systems, mathematics foundation"],
+    highlights: ["GPA: 8.72 / 10", "Big Data Engineering, Data Science, Cloud Computing"],
     logo: "🏛️",
     primary: false,
   },

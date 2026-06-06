@@ -6,22 +6,22 @@ const CONTACT_LINKS = [
   {
     icon: Mail,
     label: "Email",
-    value: "sonal.rao@email.com",
-    href: "mailto:sonal.rao@email.com",
+    value: "sonalsrao26@gmail.com",
+    href: "</mailto:sonalsrao26>@gmail.com",
     desc: "Best for formal inquiries",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/sonalrao",
-    href: "https://linkedin.com/in/sonalrao",
+    value: "linkedin.com/in/sonal-jeppu-rao",
+    href: "https://www.linkedin.com/in/sonal-jeppu-rao/",
     desc: "Let's connect professionally",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/sonalrao",
-    href: "https://github.com/sonalrao",
+    value: "github.com/jeppusonal",
+    href: "https://github.com/jeppusonal",
     desc: "See my code",
   },
 ];
