@@ -63,13 +63,16 @@ export default function About() {
             className="space-y-5 text-[var(--text-secondary)] leading-relaxed"
           >
             <p>
-              I&apos;m a data-focused technology professional with 2+ years of experience building enterprise systems in Australian financial services at Mitsubishi Pension & Market Services (formerly Link Group).
+  I'm a data-focused technology professional with 2+ years of experience building enterprise systems in Australian financial services at Mitsubishi Pension & Market Services (formerly Link Group).
+</p>
 
-My experience spans software development, SQL, data workflows, and production systems, where I learned that effective data solutions are built on reliability, quality, and a deep understanding of business needs.
+<p>
+  My experience spans software development, SQL, data workflows, and production systems, where I learned that effective data solutions are built on reliability, quality, and a deep understanding of business needs.
+</p>
 
-Currently completing a Master of Data Science and Innovation at UTS, I apply analytics, machine learning, data engineering, and AI to transform complex data into actionable insights and measurable business impact.
-
-            </p>
+<p>
+  Currently completing a Master of Data Science and Innovation at UTS, I apply analytics, machine learning, data engineering, and AI to transform complex data into actionable insights and measurable business impact.
+</p>
 
             <ul className="mt-6 space-y-2.5">
               {HIGHLIGHTS.map((highlight) => (
