@@ -1,6 +1,7 @@
 "use client";
+
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Trophy } from "lucide-react";
+import { Github, Trophy } from "lucide-react";
 import { Project } from "@/lib/data";
 import { cn, categoryColors, categoryLabels } from "@/lib/utils";
 
@@ -10,7 +11,11 @@ interface ProjectCardProps {
   featured?: boolean;
 }
 
-export default function ProjectCard({ project, index, featured = false }: ProjectCardProps) {
+export default function ProjectCard({
+  project,
+  index,
+  featured = false,
+}: ProjectCardProps) {
   const colors = categoryColors[project.category];
 
   return (
@@ -24,7 +29,6 @@ export default function ProjectCard({ project, index, featured = false }: Projec
         featured && "ring-1 ring-[var(--accent)]/20"
       )}
     >
-      {/* Top accent bar */}
       <div
         className={cn("h-1 w-full", colors.bg)}
         style={{
@@ -40,7 +44,6 @@ export default function ProjectCard({ project, index, featured = false }: Projec
       />
 
       <div className="p-6 flex flex-col flex-1">
-        {/* Header */}
         <div className="flex items-start justify-between gap-3 mb-3">
           <div>
             <div className="flex items-center gap-2 mb-1.5">
@@ -54,6 +57,7 @@ export default function ProjectCard({ project, index, featured = false }: Projec
               >
                 {categoryLabels[project.category]}
               </span>
+
               {project.showcase && (
                 <span className="flex items-center gap-1 text-xs text-[var(--gold)] font-medium">
                   <Trophy size={11} />
@@ -61,14 +65,17 @@ export default function ProjectCard({ project, index, featured = false }: Projec
                 </span>
               )}
             </div>
+
             <h3 className="font-display text-xl text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
               {project.title}
             </h3>
-            <p className="text-xs text-[var(--text-muted)] mt-0.5">{project.tagline}</p>
+
+            <p className="text-xs text-[var(--text-muted)] mt-0.5">
+              {project.tagline}
+            </p>
           </div>
         </div>
 
-        {/* Problem / Solution */}
         <div className="space-y-4 mb-5 flex-1">
           <div>
             <p className="text-xs font-mono text-[var(--text-muted)] uppercase tracking-wider mb-1">
@@ -78,6 +85,7 @@ export default function ProjectCard({ project, index, featured = false }: Projec
               {project.problem}
             </p>
           </div>
+
           <div>
             <p className="text-xs font-mono text-[var(--text-muted)] uppercase tracking-wider mb-1">
               Solution
@@ -87,35 +95,35 @@ export default function ProjectCard({ project, index, featured = false }: Projec
             </p>
           </div>
 
-          {/* Results */}
           <div>
             <p className="text-xs font-mono text-[var(--text-muted)] uppercase tracking-wider mb-2">
               Key Results
             </p>
             <ul className="space-y-1.5">
-              {project.results.slice(0, 3).map((r) => (
-                <li key={r} className="flex items-start gap-2 text-xs text-[var(--text-secondary)]">
+              {project.results.slice(0, 3).map((result) => (
+                <li
+                  key={result}
+                  className="flex items-start gap-2 text-xs text-[var(--text-secondary)]"
+                >
                   <span className="mt-1.5 w-1 h-1 rounded-full bg-[var(--accent-light)] flex-shrink-0" />
-                  {r}
+                  {result}
                 </li>
               ))}
             </ul>
           </div>
         </div>
 
-        {/* Stack chips */}
         <div className="flex flex-wrap gap-1.5 mb-4">
-          {project.stack.map((s) => (
+          {project.stack.map((skill) => (
             <span
-              key={s}
+              key={skill}
               className="text-xs px-2 py-0.5 rounded-full bg-[var(--bg-subtle)] border border-[var(--border)] text-[var(--text-muted)] font-mono"
             >
-              {s}
+              {skill}
             </span>
           ))}
         </div>
 
-        {/* Links */}
         <div className="flex items-center gap-3 pt-4 border-t border-[var(--border)]">
           {project.github && (
             <a
@@ -127,23 +135,6 @@ export default function ProjectCard({ project, index, featured = false }: Projec
               <Github size={13} />
               Code
             </a>
-          )}
-          {project.demo && project.demo !== "#" && (
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-xs font-medium text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
-            >
-              <ExternalLink size={13} />
-              Live Demo
-            </a>
-          )}
-          {project.demo === "#" && (
-            <span className="flex items-center gap-1.5 text-xs text-[var(--text-muted)] italic">
-              <ExternalLink size={13} />
-              Demo coming soon
-            </span>
           )}
         </div>
       </div>
