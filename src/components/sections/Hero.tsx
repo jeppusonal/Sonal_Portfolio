@@ -106,7 +106,7 @@ export default function Hero() {
             </a>
             <div className="flex items-center gap-3 ml-1">
               <a
-                href="https://github.com/sonalrao"
+                href="https://github.com/jeppusonal"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full border border-[var(--border)] text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:border-[var(--text-primary)] transition-colors"
@@ -115,7 +115,7 @@ export default function Hero() {
                 <Github size={15} />
               </a>
               <a
-                href="https://linkedin.com/in/sonalrao"
+                href="https://linkedin.com/in/sonal-jeppu-rao"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full border border-[var(--border)] text-[var(--text-muted)] hover:text-[var(--text-primary)] hover:border-[var(--text-primary)] transition-colors"
