@@ -11,6 +11,7 @@ export interface Project {
   demo?: string;
   featured: boolean;
   showcase?: string;
+  huggingface?: string;
 }
 
 export interface Skill {
