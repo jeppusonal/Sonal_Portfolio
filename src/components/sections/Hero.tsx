@@ -77,8 +77,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-[var(--text-secondary)] text-lg leading-relaxed max-w-2xl mb-10"
           >
-            2+ years building enterprise data systems in Australian financial services.
-            Master of Data Science at UTS. I turn messy data into decisions — through{" "}
+            Master of Data Science at UTS with 2+ years building enterprise data systems in Australian financial services. 
+            Turning complex data into actionable decisions through analytics, engineering, and AI.{" "}
             <span className="text-[var(--text-primary)] font-medium">analytics</span>,{" "}
             <span className="text-[var(--text-primary)] font-medium">machine learning</span>, and{" "}
             <span className="text-[var(--text-primary)] font-medium">production pipelines</span>.
@@ -153,7 +153,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-[var(--text-muted)]"
+        className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-[var(--text-muted)]"
       >
         <span className="text-xs font-mono">scroll</span>
         <ArrowDown size={14} className="animate-bounce" />
