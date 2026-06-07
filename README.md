@@ -136,11 +136,11 @@ Built a big-data analytics pipeline and predictive model using over 10 years of 
 **Mitsubishi Pension & Market Services (formerly Link Group)**
 Jul 2022 – Jul 2024
 
-* Developed and maintained enterprise applications supporting Australian investor and pension management systems.
-* Optimised SQL Server queries and reporting workflows.
-* Collaborated with stakeholders to deliver scalable business solutions.
-* Improved data quality and operational efficiency across production systems.
+*Developed and maintained .NET MVC middleware applications, SQL Server workflows, and enterprise systems supporting Australian investor and pension administration.
 
+*Collaborated with business stakeholders to translate requirements into scalable solutions while improving data quality, reporting processes, and system reliability.
+
+*Enhanced application performance, reporting accuracy, and operational efficiency across mission-critical financial platforms handling high-volume investor records.
 ---
 
 ## Education
