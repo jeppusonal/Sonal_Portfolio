@@ -20,7 +20,7 @@ export default function Skills() {
             Full-stack data capabilities.
           </h2>
           <p className="text-[var(--text-muted)] mt-2 text-sm max-w-xl">
-            From raw SQL to PyTorch to production dashboards — built across enterprise, academic, and personal projects.
+            From raw SQL to PyTorch to production dashboards built across enterprise, academic, and personal projects.
           </p>
         </motion.div>
 
